@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CRLForm.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MyForm.cpp
+c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(72): error C2039: 'button1_Click_1': is not a member of 'CRLForm::MyForm'
+  c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(16): note: see declaration of 'CRLForm::MyForm'
+c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(72): error C2065: 'button1_Click_1': undeclared identifier
+c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(72): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(72): note: pointer to member function expected
+c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(81): error C2039: 'textBox1_TextChanged': is not a member of 'CRLForm::MyForm'
+  c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(16): note: see declaration of 'CRLForm::MyForm'
+c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(81): error C2065: 'textBox1_TextChanged': undeclared identifier
+c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(81): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  c:\users\user1\source\repos\crlform\crlform\crlform\MyForm.h(81): note: pointer to member function expected
